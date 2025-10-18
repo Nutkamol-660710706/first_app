@@ -15,7 +15,8 @@ import 'package:flutter/material.dart';
 import 'firebase_options.dart';
 //import 'animeted_test.dart';
 //import 'api_example/firestore_test.dart';
-import 'api_example/product_page.dart';
+//import 'api_example/product_page.dart';
+import 'traffig_light.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: const FirestoreTest(),
+      home: const TraffigLight(),
       // initialRoute: '/',
       // routes: {
       //   '/': (context) => FirstPage(),
